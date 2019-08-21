@@ -1,0 +1,26 @@
+기능적 요구사항
+
+1. 사용자는 특정 게임에 의존성을 갖는 데이터를 관리할 수 있어야 한다.
+2. 사용자는 특정 장치에 의존성을 갖는 데이터를 관리할 수 있어야 한다.
+3. 사용자는 특정 테스트에 의존성을 갖는 데이터를 관리할 수 있어야 한다.
+4. 사용자는 특정 게임에 의존성을 갖는 데이터를 페이지 단위로 조회할 수 있어야 한다.
+5. 사용자는 특정 장치에 의존성을 갖는 데이터를 페이지 단위로 조회할 수 있어야 한다.
+6. 사용자는 특정 테스트에 의존성을 갖는 데이터를 페이지 단위로 조회할 수 있어야 한다.
+
+비기능적 요구사항
+
+1. 
+
+
+
+
+
+Functional Requirements
+1. User should be able to manage the data dependent on specific game.
+2. User should be able to manage the data dependent on specific device.
+3. User should be able to manage the data dependent on specific test.
+4. User should be able to read the data by page dependent on specific game.
+5. User should be able to read the data by page dependent on specific device.
+6. User should be able to read the data by page dependent on specific test.
+
+Nonfunctional Requirements
