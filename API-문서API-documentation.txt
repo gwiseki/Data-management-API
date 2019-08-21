@@ -1,5 +1,15 @@
 API 문서document
 
+# 용어 정의
+
+| 한글 정의     | 영어 정의English definition | 설명                                                                                                                                  |
+|---------------|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| 게임 데이터   | gamedata                    | 특정 게임에 의존성을 갖는 데이터(특정 게임을 포함하고 있는 데이터) Data dependent on specific game(data containing specific game)     |
+| 장치 데이터   | devicedata                  | 특정 장치에 의존성을 갖는 데이터(특정 장치를 포함하고 있는 데이터) Data dependent on specific device(data containing specific device) |
+| 테스트 데이터 | testdata                    | 특정 테스트에 의존성을 갖는 데이터(특정 테스트를 포함하고 있는 데이터) Data dependent on specific test(data containing specific test) |
+
+# API
+
 | URL                                    | Method | Description                                |
 |----------------------------------------|--------|--------------------------------------------|
 | /api/v1/games/:gameId/data             | POST   | 게임 데이터 생성create game data           |
@@ -20,8 +30,9 @@ API 문서document
 
 1. 게임 데이터 생성create game data
 | URL              | /api/v1/games/:gameId/data                                       |
+|------------------|------------------------------------------------------------------|
 | Method           | POST                                                             |
-| URL parameters   | gameID = [string] : 생성할 게임 데이터가 의존성을 갖는 게임의 ID |
+| URL parameters   | gameId = [string] : 생성할 게임 데이터가 의존성을 갖는 게임의 ID |
 | Data parameters  | 반드시 필요한 필드 : data                                        |
 | Success Response | Status Code : 200 Content : 단일 게임 데이터                     |
 | Error Response   | Status Code : 405 Content : { message : "Invalid Input" }        |
@@ -35,6 +46,13 @@ API 문서document
 5. 복수 게임 데이터 조회read many game data
 
 6. 장치 데이터 생성create device data
+| URL              | /api/v1/devices/:deviceId/data/:dataId                             |
+|------------------|--------------------------------------------------------------------|
+| Method           | POST                                                               |
+| URL parameters   | deviceId = [string] : 생성할 장치 데이터가 의존성을 갖는 장치의 ID |
+| Data parameters  | 반드시 필요한 필드 : data                                          |
+| Success Response | Status Code : 200 Content : 단일 장치 데이터                       |
+| Error Response   | Status Code : 405 Content : { message : "Invalid Input" }          |
 
 7. 장치 데이터 조회read device data
 
@@ -45,6 +63,13 @@ API 문서document
 10. 복수 장치 데이터 조회read many device data
 
 11. 테스트 데이터 생성create test data
+| URL              | /api/v1/tests/:testId/data/:dataId                                   |
+|------------------|----------------------------------------------------------------------|
+| Method           | POST                                                                 |
+| URL parameters   | testId = [string] : 생성할 테스트 데이터가 의존성을 갖는 테스트의 ID |
+| Data parameters  | 반드시 필요한 필드 : data                                            |
+| Success Response | Status Code : 200 Content : 단일 장치 데이터                         |
+| Error Response   | Status Code : 405 Content : { message : "Invalid Input" }            |
 
 12. 테스트 데이터 조회read test data
 
