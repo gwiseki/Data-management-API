@@ -29,6 +29,7 @@ API 문서document
 | /api/v1/tests/:testId/data             | GET    | 복수 테스트 데이터 조회read many test data |
 
 1. 게임 데이터 생성create game data
+
 | URL              | /api/v1/games/:gameId/data                                       |
 |------------------|------------------------------------------------------------------|
 | Method           | POST                                                             |
@@ -38,6 +39,7 @@ API 문서document
 | Error Response   | Status Code : 405 Content : { message : "Invalid Input" }        |
 
 2. 게임 데이터 조회read game data
+
 | URL              | /api/v1/games/:gameId/data/:dataId                               |
 |------------------|------------------------------------------------------------------|
 | Method           | GET                                                              |
@@ -48,6 +50,7 @@ API 문서document
 | Error Response   | Status Code : 404 Content : { message : "gamedata not found" }   |
 
 3. 게임 데이터 수정update game data
+
 | URL              | /api/v1/games/:gameId/data/:dataId                               |
 |------------------|------------------------------------------------------------------|
 | Method           | PATCH                                                            |
@@ -59,6 +62,7 @@ API 문서document
 |                  | Status Code : 405 Content : { message : "Invalid Input" }        |
 
 4. 게임 데이터 삭제delete game data
+
 | URL              | /api/v1/games/:gameId/data/:dataId                               |
 |------------------|------------------------------------------------------------------|
 | Method           | DEL                                                              |
@@ -69,6 +73,7 @@ API 문서document
 | Error Response   | Status Code : 404 Content : { message : "gamedata not found" }   |
 
 5. 복수 게임 데이터 조회read many game data
+
 | URL              | /api/v1/games/:gameId/data                                       |
 |------------------|------------------------------------------------------------------|
 | Method           | GET                                                              |
@@ -81,6 +86,7 @@ API 문서document
 | Error Response   | Status Code : 404 Content : { message : "gamedata not found" }   |
 
 6. 장치 데이터 생성create device data
+
 | URL              | /api/v1/devices/:deviceId/data/:dataId                             |
 |------------------|--------------------------------------------------------------------|
 | Method           | POST                                                               |
@@ -90,6 +96,7 @@ API 문서document
 | Error Response   | Status Code : 405 Content : { message : "Invalid Input" }          |
 
 7. 장치 데이터 조회read device data
+
 | URL              | /api/v1/devices/:deviceId/data/:dataId                             |
 |------------------|--------------------------------------------------------------------|
 | Method           | GET                                                                |
@@ -100,6 +107,7 @@ API 문서document
 | Error Response   | Status Code : 404 Content : { message : "devicedata not found" }   |
 
 8. 장치 데이터 수정update device data
+
 | URL              | /api/v1/devices/:deviceId/data/:dataId                             |
 |------------------|--------------------------------------------------------------------|
 | Method           | PATCH                                                              |
@@ -111,6 +119,7 @@ API 문서document
 |                  | Status Code : 405 Content : { message : "Invalid Input" }        |
 
 9. 장치 데이터 삭제delete device data
+
 | URL              | /api/v1/devices/:deviceId/data/:dataId                             |
 |------------------|--------------------------------------------------------------------|
 | Method           | DEL                                                                |
@@ -121,6 +130,7 @@ API 문서document
 | Error Response   | Status Code : 404 Content : { message : "devicedata not found" }     |
 
 10. 복수 장치 데이터 조회read many device data
+
 | URL              | /api/v1/devices/:deviceId/data                                     |
 |------------------|--------------------------------------------------------------------|
 | Method           | GET                                                                |
@@ -133,6 +143,7 @@ API 문서document
 | Error Response   | Status Code : 404 Content : { message : "devicedata not found" }   |
 
 11. 테스트 데이터 생성create test data
+
 | URL              | /api/v1/tests/:testId/data/:dataId                                   |
 |------------------|----------------------------------------------------------------------|
 | Method           | POST                                                                 |
@@ -142,6 +153,7 @@ API 문서document
 | Error Response   | Status Code : 405 Content : { message : "Invalid Input" }            |
 
 12. 테스트 데이터 조회read test data
+
 | URL              | /api/v1/tests/:testId/data/:dataId                                   |
 |------------------|----------------------------------------------------------------------|
 | Method           | GET                                                                  |
@@ -152,6 +164,7 @@ API 문서document
 | Error Response   | Status Code : 404 Content : { message : "testdata not found" }       |
 
 13. 테스트 데이터 수정update test data
+
 | URL              | /api/v1/tests/:testId/data/:dataId                                   |
 |------------------|----------------------------------------------------------------------|
 | Method           | GET                                                                  |
@@ -163,6 +176,7 @@ API 문서document
 |                  | Status Code : 405 Content : { message : "Invalid Input" }        |
 
 14. 테스트 데이터 삭제delete test data
+
 | URL              | /api/v1/tests/:testId/data/:dataId                                   |
 |------------------|----------------------------------------------------------------------|
 | Method           | DEL                                                                  |
@@ -173,6 +187,7 @@ API 문서document
 | Error Response   | Status Code : 404 Content : { message : "testdata not found" }       |
 
 15. 복수 테스트 데이터 조회read many test data
+
 | URL              | /api/v1/tests/:testId/data                                           |
 |------------------|----------------------------------------------------------------------|
 | Method           | GET                                                                  |
