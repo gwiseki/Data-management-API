@@ -9,10 +9,15 @@
 
 비기능적 요구사항
 
-1. 
-
-
-
+1. 언어는 Typescript를 사용한다.
+2. 웹 서비스 프레임워크는 express를 사용한다.
+3. MVC 패턴 중 View를 제외한 Model과 Controller를 구현한다.
+4. 각각의 스토리에 대한 테스트 케이스를 작성하며 mocha, chai를 이용한다.
+5. 모든 API는 /api/vi/ 으로 시작하여야 한다.
+6. Update에 관련된 HTTP Method는 Patch를 사용한다.
+7. API의 요청과 응답은 JSON 형식으로 한다.
+8. JSON에 사용되는 다국어는 utf-8 텍스트 인코딩을 사용한다.
+9. 설정에 관련된 값은 하드 코딩하지 않고 node-config 모듈을 이용하여 별도의 파일로 설정할 수 있어야 한다. (예 : 서버 포트, DB접근 URL)
 
 
 Functional Requirements
@@ -24,3 +29,13 @@ Functional Requirements
 6. User should be able to read the data by page dependent on specific test.
 
 Nonfunctional Requirements
+
+1. should use Typescript language.
+2. should use Express as a Web service framework.
+3. should implement model & controller in MVC pattern. (except for view)
+4. should make test case for each user stories by using mocha, chai.
+5. All of api should start with '/api/vi/'.
+6. should use 'Patch' in HTTP Method concerned with Update.
+7. should be JSON format as API Request & response.
+8. should use utf-8 text encoding in JSON.
+9. should not use hard-coding but extra files like node-config modules in setting .
