@@ -1,0 +1,6 @@
+{
+    "database": {
+        "dbConnection": "mongodb://......../TWB_manage_test",
+        "dbport" : "8080"
+    }
+}
