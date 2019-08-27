@@ -1,0 +1,72 @@
+테스트 케이스
+
+1. 사용자는 특정 게임에 의존성을 갖는 데이터를 관리할 수 있어야 한다.
+	- 게임 데이터를 생성할 수 있어야 한다.
+	- 게임 데이터를 생성할 수 없어야 한다.
+	- 게임 데이터를 읽을 수 있어야 한다.
+	- 게임 데이터를 읽을 수 없어야 한다.
+	- 게임 데이터를 수정할 수 있어야 한다.
+	- 게임 데이터를 수정할 수 없어야 한다.
+	- 게임 데이터를 삭제할 수 있어야 한다.
+	- 게임 데이터를 삭제할 수 없어야 한다.
+2. 사용자는 특정 장치에 의존성을 갖는 데이터를 관리할 수 있어야 한다.
+	- 장치 데이터를 생성할 수 있어야 한다.
+	- 장치 데이터를 생성할 수 없어야 한다.
+	- 장치 데이터를 읽을 수 있어야 한다.
+	- 장치 데이터를 읽을 수 없어야 한다.
+	- 장치 데이터를 수정할 수 있어야 한다.
+	- 장치 데이터를 수정할 수 없어야 한다.
+	- 장치 데이터를 삭제할 수 있어야 한다.
+	- 장치 데이터를 삭제할 수 없어야 한다.
+3. 사용자는 특정 테스트에 의존성을 갖는 데이터를 관리할 수 있어야 한다.
+	- 테스트 데이터를 생성할 수 있어야 한다.
+	- 테스트 데이터를 생성할 수 없어야 한다.
+	- 테스트 데이터를 읽을 수 있어야 한다.
+	- 테스트 데이터를 읽을 수 없어야 한다.
+	- 테스트 데이터를 수정할 수 있어야 한다.
+	- 테스트 데이터를 수정할 수 없어야 한다.
+	- 테스트 데이터를 삭제할 수 있어야 한다.
+	- 테스트 데이터를 삭제할 수 없어야 한다.
+4. 사용자는 특정 게임에 의존성을 갖는 데이터를 페이지 단위로 조회할 수 있어야 한다.
+	- 게임 데이터를 페이지 단위로 조회할 수 있어야 한다.
+5. 사용자는 특정 장치에 의존성을 갖는 데이터를 페이지 단위로 조회할 수 있어야 한다.
+	- 장치 데이터를 페이지 단위로 조회할 수 있어야 한다.
+6. 사용자는 특정 테스트에 의존성을 갖는 데이터를 페이지 단위로 조회할 수 있어야 한다.
+	- 테스트 데이터를 페이지 단위로 조회할 수 있어야 한다.
+
+
+Test case
+
+1. User should be able to manage the data dependent on specific game.
+	- should able to create game data.
+	- should not able to create game data.
+	- should able to read game data.
+	- should not able to read game data.
+	- should able to update game data.
+	- should not able to update game data.
+	- should able to delete game data.
+	- should not able to delete game data.
+2. User should be able to manage the data dependent on specific device.
+	- should able to create device data.
+	- should not able to create device data.
+	- should able to read device data.
+	- should not able to read device data.
+	- should able to update device data.
+	- should not able to update device data.
+	- should able to delete device data.
+	- should not able to delete device data.
+3. User should be able to manage the data dependent on specific test.
+	- should able to create test data.
+	- should not able to create test data.
+	- should able to read test data.
+	- should not able to read test data.
+	- should able to update test data.
+	- should not able to update test data.
+	- should able to delete test data.
+	- should not able to delete test data.
+4. User should be able to read the data by page dependent on specific game.
+	- should able to read game data by page.
+5. User should be able to read the data by page dependent on specific device.
+	- should able to read device data by page.
+6. User should be able to read the data by page dependent on specific test.
+	- should able to read test data by page.
