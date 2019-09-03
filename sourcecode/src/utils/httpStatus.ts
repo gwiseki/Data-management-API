@@ -1,3 +1,5 @@
+// // : in-use
+
 const httpStatus = {
     100: "Continue",
     101: "Switching Protocols",
@@ -25,7 +27,7 @@ const httpStatus = {
     402: "Payment Required",
     403: "Forbidden",
     404: "Not Found",
-    405: "Method Not Allowed",
+    405: "Invalid Input", //
     406: "Not Acceptable",
     407: "Proxy Authentication Required",
     408: "Request Time-out",
@@ -85,7 +87,7 @@ const httpStatus = {
     PAYMENT_REQUIRED: 402,
     FORBIDDEN: 403,
     NOT_FOUND: 404,
-    METHOD_NOT_ALLOWED: 405,
+    INVALID_INPUT: 405, //
     NOT_ACCEPTABLE: 406,
     PROXY_AUTHENTICATION_REQUIRED: 407,
     REQUEST_TIMEOUT: 408,
