@@ -20,3 +20,9 @@ deviceSchema.plugin(mongoosePaginate);
 interface Device<T extends Document> extends PaginateModel<T> { }
 
 export const Device = model<deviceData>("Device", deviceSchema);
+
+export async function saveDeviceData():Promise<void> {
+    return new Promise((resolve, reject) => {
+        
+    })
+}
