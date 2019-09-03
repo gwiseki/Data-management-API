@@ -1,0 +1,36 @@
+{
+  "name": "sourcecode",
+  "version": "1.0.0",
+  "description": "data-management tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/server",
+    "clean": "rimraf node_modules/",
+    "test": "cross-env NODE_ENV=test mocha test ./build/test/*",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/config": "0.0.34",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.1",
+    "@types/lodash": "^4.14.138",
+    "@types/mongoose": "^5.5.15",
+    "@types/mongoose-paginate": "^5.0.6",
+    "@types/morgan": "^1.7.37",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.2",
+    "cookie-parser": "^1.4.4",
+    "cross-env": "^5.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.11",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.1",
+    "ts": "^0.2.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.6.2"
+  }
+}
