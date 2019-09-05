@@ -78,7 +78,6 @@ API 문서document
 |------------------|------------------------------------------------------------------|
 | Method           | GET                                                              |
 | URL parameters   | gameId = [string] : 삭제할 게임 데이터가 의존성을 갖는 게임의 ID |
-|                  | dataId = [string] : 삭제할 게임 데이터의 ID                      |
 | Data parameters  | none                                                             |
 | Query parameters | page = [number] : 조회할 게임 데이터 목록의 페이지 번호          |
 |                  | limit = [number] : 한 페이지에 조회할 게임 데이터 갯수           |
@@ -134,8 +133,7 @@ API 문서document
 | URL              | /api/v1/devices/:deviceId/data                                     |
 |------------------|--------------------------------------------------------------------|
 | Method           | GET                                                                |
-| URL parameters   | deviceId = [string] : 삭제할 장치 데이터가 의존성을 갖는 장치의 ID |
-|                  | dataId = [string] : 삭제할 장치 데이터의 ID                        |
+| URL parameters   | deviceId = [string] : 삭제할 장치 데이터가 의존성을 갖는 장치의 ID ||
 | Data parameters  | none                                                               |
 | Query parameters | page = [number] : 조회할 장치 데이터 목록의 페이지 번호            |
 |                  | limit = [number] : 한 페이지에 조회할 장치 데이터 갯수             |
@@ -192,7 +190,6 @@ API 문서document
 |------------------|----------------------------------------------------------------------|
 | Method           | GET                                                                  |
 | URL parameters   | testId = [string] : 삭제할 테스트 데이터가 의존성을 갖는 테스트의 ID |
-|                  | dataId = [string] : 삭제할 테스트 데이터의 ID                        |
 | Data parameters  | none                                                                 |
 | Query parameters | page = [number] : 조회할 테스트 데이터 목록의 페이지 번호            |
 |                  | limit = [number] : 한 페이지에 조회할 테스트 데이터 갯수             |
