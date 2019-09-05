@@ -13,6 +13,8 @@ export const testSchema = new Schema({
     data: {},
     createdDate: { type: Date, default: Date.now  },
     creator: String
+}, {
+    collection: 'TestData'
 });
 
 testSchema.plugin(mongoosePaginate);

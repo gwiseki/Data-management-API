@@ -13,6 +13,8 @@ const deviceSchema = new Schema({
     data: {},
     createdDate: { type: Date, default: Date.now },
     creator: String
+}, {
+    collection: 'DeviceData'
 });
 
 deviceSchema.plugin(mongoosePaginate);
