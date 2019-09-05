@@ -13,7 +13,9 @@ const gameSchema = new Schema({
     data: {},
     createdDate: { type: Date, default: Date.now },
     creator: String
-});
+}, {
+        collection: 'GameData'
+    });
 
 gameSchema.plugin(mongoosePaginate);
 
